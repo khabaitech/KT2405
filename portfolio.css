@@ -1,5 +1,5 @@
 *{
-    background-color: gray;
+    background-color: #222;
 }
 .container1{
     display: flex;
@@ -15,6 +15,7 @@
     align-items: center;
     margin-right: 2vw;
     text-decoration: none;
+    color: aliceblue;
 }
 nav h1{
     margin: 5vw;
@@ -34,6 +35,23 @@ nav h1{
 }
 .link a{
     text-decoration: none;
+    color: chartreuse;
+}
+
+.link a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgba(253, 0, 0, 0.96);
+    border-radius: 1px;
+    content: "";
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    box-shadow: 0 0 20px rgba(218, 178, 152, 0.789);
+    z-index: -7;
+    background:scroll ;
+    accent-color: red;
+    
 }
 
 .content{
@@ -41,12 +59,14 @@ nav h1{
     height: auto;
     margin-left: 10vw;
     margin-top: 10vh;
+    cursor: default;
 }
 
 .content h4{
     font-size: 5vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 0px;
+    color: slateblue;
 }
 
 .content h1{
@@ -55,21 +75,25 @@ nav h1{
     font-style: initial;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: slateblue;
 }
 
 .content h2{
     font-size:9vh;
     margin-top: 0px;
     margin-bottom: 0px;
+    color: slateblue;
 }
 
 .content span{
-    color: royalblue;
+    color: orangered;
+    cursor:context-menu;
 }
 
 .content h5{
     margin-top: 8px;
     font-stretch:extra-expanded;
+    color: whitesmoke;
 }
 
 .image{
@@ -77,8 +101,6 @@ nav h1{
     width: auto;
     align-items: top;
     position: relative;
-    border-radius: 50%;
-    border-radius: 50%;
     animation-name: move;
     animation-duration: 2s;
     animation-delay: 1s;
@@ -101,6 +123,11 @@ nav h1{
     }
 }
 
+img{
+    border-radius: 50%;
+    cursor: none;
+    
+}
 
 .footer{
     display: flex;
@@ -117,4 +144,7 @@ nav h1{
     border-radius: 50%;
     margin-left: 15vw;
     justify-content: space-around;
+    cursor: pointer;
 }
+
+/* ------------------------------------------------------------------------------------------------------------ */
