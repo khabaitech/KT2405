@@ -134,7 +134,11 @@ input:hover{
     content: "";
     box-shadow: 2px 2px 5px rgb(218, 72, 32) ;
     z-index: 1;
+    visibility: visible;
+    cursor: not-allowed;
+   
 }
+
 
 input[type="submit"], input[type="reset"] {
     width: 30%;
@@ -147,12 +151,26 @@ input[type="submit"], input[type="reset"] {
     
 }
 
-input[type="submit"]:hover, input[type="reset"]:hover {
+input[type="submit"]:hover {
     background-color: #ddd;
+
+}
+
+input[type="submit"]:hover{
+    visibility: visible;
+}
+
+input[type="reset"]:hover{
+    /* visibility: ; */
+    cursor: not-allowed;
 }
 
 .bu {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.text{
+    background-color: blue;
 }

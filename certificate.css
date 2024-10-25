@@ -71,8 +71,38 @@ span{
 
 .scan1{
     display: flex;
-    width: 15vw;
+    width: 100%;
     height: 15vw;
     justify-content: space-between;
     align-items: center;
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+    overflow-wrap:normal;
+    margin: 85px;
+    margin-bottom: 6px;
+}
+
+.certi{
+    width: 40%;
+    height: 170%;
+    margin-bottom: 55px;
+}
+
+.certi2{
+    width: 40%;
+    height: 170%;
+    margin-bottom: 55px;
+}
+
+.certi3{
+    width: 40%;
+    height: 170%;
+    margin-bottom: 55px;
+}
+
+.certi4{
+    width: 40%;
+    height: 170%;
+    margin-bottom: 55px;
 }
